@@ -8,7 +8,7 @@ atten = int(input("enter the attendance of the student"))
 if medical_cause == 'Y':#chicking the condition 1
     print ("You are allowed")
 else:
-    if atten>=75: #checking the condition 2
+    if atten>=75 : #checking the condition 2
       print ("allowed")
     else:
        print("Not allowed")
